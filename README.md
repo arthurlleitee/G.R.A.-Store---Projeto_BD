@@ -41,21 +41,19 @@ O sistema deve armazenar:
 ---
 
 ## 📂 Estrutura do Projeto
-\`\`\`
 
 GRA_Store/
 │
-├── menu.py # Sistema em Python com perfis: cliente, funcionário, gerente e administrador
-├── dados_nativos.py # Popula cargos, vendedores, 100 clientes e 20 produtos
+├── 📜 menu.py # Sistema em Python com perfis (cliente, funcionário, gerente, administrador)
+├── 📜 dados_nativos.py # Popula cargos, vendedores, 100 clientes e 20 produtos
 │
-├── projetobdd.sql # Tabelas e constraints do banco
-├── functions.sql # 3 Funções SQL
-├── procedures.sql # Procedures: reajuste, sorteio, venda, estatísticas
-├── triggers.sql # Gatilhos (bônus, cashback, remoção de cliente especial)
-├── views.sql # Views com JOIN e GROUP BY
-├── usuarios.sql # Criação dos três perfis de usuários no MySQL
+├── 🗄️ projetobdd.sql # Criação das tabelas e constraints do banco
+├── 🧮 functions.sql # Funções SQL (calcula_idade, soma_fretes, arrecadado)
+├── ⚙️ procedures.sql # Procedures: reajuste, sorteio, venda, estatísticas
+├── 🔥 triggers.sql # Triggers: bônus, cashback, remoção automática
+├── 👁️ views.sql # Views com JOIN + GROUP BY
+└── 🔐 usuarios.sql # Usuários e permissões do MySQL
 
-\`\`\`
 ---
 
 ## 🛢️ Banco de Dados (MySQL)
